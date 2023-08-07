@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+	inteiro base,expoente,ele,x
+escreva("escreva base e expoente respectivamente \n")
+	leia(x, expoente)
+	base = x
+	para( ele = 1; expoente>ele; ele++){
+		base = base*base
+	}
+	escreva(x, "^", expoente, " = ", base)
+	
+	}
+}
