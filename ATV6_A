@@ -1,0 +1,28 @@
+programa
+{
+	inclua biblioteca Util--> u
+	
+	funcao inicio()
+	{
+		inteiro x,y,z, mx
+
+		x = 0
+		y = 1
+		mx = 610
+		
+		escreva("A Série de fibonacci até ",mx , ": ")
+	
+	enquanto(y <= mx){
+			escreva(" ",y," ")
+
+			z = x + y
+			x = y
+			y = z
+
+			
+			
+			
+			
+		}
+	}
+}
